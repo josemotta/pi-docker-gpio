@@ -30,3 +30,5 @@ docker run --privileged -p 5000:5000 josemottalopes/gpio
 **any: CLIENT Test:**
 
 curl -H "Content-Type: application/json" -d 'true' http://lumi:5000/api/blinky
+
+curl -H "Content-Type: application/json" -d 'false' http://lumi:5000/api/blinky
