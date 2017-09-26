@@ -14,7 +14,7 @@ Deployment Workflow
 ----------------------
 **x64: Development**
 
-cd "C:\_git\Api\aspnet.webapi.rpi.gpio"
+cd ".\aspnet.webapi.rpi.gpio"
 
 **x64: Linux-Arm Build**
 
