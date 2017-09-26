@@ -18,7 +18,7 @@ cd ".\aspnet.webapi.rpi.gpio"
 
 **x64: Linux-Arm Build**
 
-docker-compose -f docker-compose.ci.build.yml build
+docker-compose -f docker-compose.ci.build.yml build  
 docker build -t josemottalopes/gpio:latest .  
 docker push josemottalopes/gpio:latest
 
