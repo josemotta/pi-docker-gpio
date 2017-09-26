@@ -6,8 +6,7 @@ ASPNET.WEBAPI.RPI.GPIO
 
 - GPIO test is based on Carlos Mendible post: [Toggle Raspberry Pi GPIO Pins with ASP.NET Core 2.0](https://carlos.mendible.com/2017/09/01/toggle-raspberry-pi-gpio-pins-with-asp-net-core-20/ "Toggle Raspberry Pi GPIO Pins with ASP.NET Core 2.0")
 
-- ASP.NET Core 2.0 for Raspberry Pi:  
-[FROM microsoft/dotnet:2.0-runtime-deps-stretch-arm32v7](https://github.com/dotnet/dotnet-docker/blob/master/2.0/runtime/stretch/arm32v7/Dockerfile)
+- ASP.NET Core 2.0 for Raspberry Pi: [FROM microsoft/dotnet:2.0-runtime-deps-stretch-arm32v7](https://github.com/dotnet/dotnet-docker/blob/master/2.0/runtime/stretch/arm32v7/Dockerfile)
 
 - Base container available at 
 [josemottalopes/gpio-base](https://hub.docker.com/r/josemottalopes/gpio-base/)
