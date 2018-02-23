@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  gpio:
+    image: gpio
+    build:
+      context: .
+      dockerfile: Gpio/Dockerfile

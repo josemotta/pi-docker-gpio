@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  gpio:
+    container_name: gpio-test
+    image: josemottalopes/gpio
+    build:
+      context: .
+      dockerfile: Gpio/pi.Dockerfile
+    ports:
+      - "80:80"
+    network_mode: bridge
+    restart: always
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Release

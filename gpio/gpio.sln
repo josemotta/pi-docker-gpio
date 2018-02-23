@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gpio", "Gpio\Gpio.csproj", "{80275F65-746A-4235-B4FD-C52AFE721A5D}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{0DD50921-C3A2-4636-9BAC-9C1D74D8424E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80275F65-746A-4235-B4FD-C52AFE721A5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80275F65-746A-4235-B4FD-C52AFE721A5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80275F65-746A-4235-B4FD-C52AFE721A5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80275F65-746A-4235-B4FD-C52AFE721A5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DD50921-C3A2-4636-9BAC-9C1D74D8424E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DD50921-C3A2-4636-9BAC-9C1D74D8424E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DD50921-C3A2-4636-9BAC-9C1D74D8424E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DD50921-C3A2-4636-9BAC-9C1D74D8424E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06621F4D-B328-4436-82FC-38A1D39C8D99}
+	EndGlobalSection
+EndGlobal
